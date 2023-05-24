@@ -74,6 +74,7 @@ class Fail(Man,Home):
         print(f'My name is {self.name}')
 
 zen = Fail()
+zen.joe()
 
 
     
