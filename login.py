@@ -54,6 +54,6 @@ class Login(General_Info):
 logging = True
 
 while logging:
-    return play()
+ play()
 else:
     za.loggin()

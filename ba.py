@@ -1,8 +1,6 @@
 class Home_affairs():
     def __init__():
-        pass
-
-    def general_info(self):
+    
         name = print('Enter your name')
         input()
 
