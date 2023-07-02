@@ -19,6 +19,11 @@ class Ant(Home):
     def code(self):
         print('my name is ',self.name)
 
+class Login():
+     def __init__(self,lg,pw):
+          self.lg = lg
+          self.pw = pw
+
 ca = Ant()
 ca.code()
 
