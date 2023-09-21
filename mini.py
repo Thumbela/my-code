@@ -1,3 +1,4 @@
+import nanoid
 class Home():
     def __init__(self):
         self.name = input('Name: ')
@@ -80,4 +81,17 @@ zen.joe()
     
 
 zen.gender()
+
+class generate_qr():
+    def __init__(self,*args,**kwaargs):
+        return None
+
+    def qr_fun(self):  # function that generate qr 5-digits number
+        code = nanoid.generate()
+        first_code = code[0:2]
+        last_code = code[-3:-1]
+        middle_code = code[10]
+        qr_5_digit_no = first_code + middle_code + last_code
+        return qr_5_digit_no
+        
 
